@@ -1,0 +1,86 @@
+.seo-list {
+    list-style-image: url(../../../../../../assets/image/icons/tickIcon.svg);
+    padding-left: 24px;
+}
+
+li {
+    margin: 16px 0;
+    font-size: 14px;
+}
+
+.seo {
+    display: block;
+    width: 100%;
+    padding: 0 12px;
+    .bold {
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 768px) {
+    .seo {
+        padding: 0 36px;
+    }
+}
+
+@media (min-width: 992px) {
+    .seo {
+        padding: 0 40px;
+    }
+}
+
+h2 {
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 40px 0;
+}
+
+.seo,
+h2:first-child {
+    margin-top: 0;
+}
+
+h3 {
+    line-height: calc(4/3);
+    font-weight: 600;
+}
+
+h3, h4 {
+    font-size: 24px;
+    margin: 16px 0;
+}
+
+p{
+    margin-top: 0;
+    font-size: 14px;
+}
+
+p:last-of-type {
+    margin-bottom: 30px;
+}
+
+.ant-divider-horizoltal {
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin: 24px 0;
+    clear: both;
+    background-color: #e8e8e8;
+}
+
+ol{
+    padding-left: 40px;
+}
+
+.link-text {
+    text-decoration: none;
+    color: #00a5cf;
+    &:hover {
+        color: #6bd7ff;
+        transition: color 0.3s;
+    }
+}

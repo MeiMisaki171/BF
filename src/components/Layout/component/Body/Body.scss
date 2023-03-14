@@ -100,3 +100,32 @@
 
 }
 
+@media (min-width: 768px) {
+    .bottomContainer__wrapper {
+        background-color: #f7f7f7;
+        padding: 72px 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .bottomContainer__wrapper {
+        background-color: #f7f7f7;
+        padding: 108px 0;
+    }
+}
+
+.bottomContainer {
+    padding: 0 12px;
+}
+
+@media (min-width: 768px) {
+    .bottomContainer {
+        padding: 0 36px;
+    }
+}
+
+@media (min-width: 992px) {
+    .bottomContainer {
+        padding: 0 40px;
+    }
+}

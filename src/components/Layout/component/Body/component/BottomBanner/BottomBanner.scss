@@ -1,0 +1,100 @@
+.bottomBanner__wrapper {
+    display: flex;
+}
+
+.bottomBanner {
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    height: auto;
+    zoom: 1;
+    display: block;
+    width: 100%;
+}
+
+
+.antCol-12,
+.antCol-24 {
+    position: relative;
+    min-width: 1px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.antCol-12,
+.antCol-24 {
+    float: left;
+}
+
+.antCol-24 {
+    display: block;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .antCol-12,
+    .antCol-24 {
+        float: left;
+    }
+}
+
+@media (min-width: 768px) {
+    .antCol-12 {
+        display: block;
+        width: 50%;
+    }
+}
+
+.restaurantContainer{
+    justify-content: center;
+    margin: 0 14px 48px;
+}
+
+.restaurantContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bannerImg {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 24px;
+}
+
+.bannerTitle {
+    font-size: 21px;
+    line-height: 1.4;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.bannerTitle,
+.description {
+    text-align: center;
+    max-width: 456px;
+}
+
+
+.description {
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #676767;
+    margin-bottom: 24px;
+}
+
+.downloadContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.downloadContainer {
+    justify-content: space-between;
+    margin: 0 14px;
+}
+
+.storeDeepLink {
+    margin: 0 12px;
+}

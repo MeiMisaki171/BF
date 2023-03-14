@@ -5,11 +5,12 @@ import './Body.scss'
 import { Link } from 'react-router-dom'
 import Categories from './component/Categories/Categories'
 import Seo from './component/Seo/Seo'
+import BottomBanner from './component/BottomBanner/BotttomBanner'
 
 
 const Body = ({className}) => {
   return (
-  <body className={className} >
+  <div className={className} >
       <HeaderBackground />
     <div className='background-border'></div>
     
@@ -40,12 +41,17 @@ const Body = ({className}) => {
             <Categories />
             <Seo/>
           </div>
-          
         </div>
         
+      </div>
+      <div className='bottomContainer__wrapper'>
+          <div className='sectionContainer__wrapper'>
+            <div className='bottomContainer'>
+              <BottomBanner/>
+            </div>
+          </div>
         </div>
-    
-  </body>
+  </div>
   )
 }
 
