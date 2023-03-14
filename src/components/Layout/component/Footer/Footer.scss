@@ -125,3 +125,39 @@
         width: 25%;
     }
 }
+
+.link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 52px;
+    font-weight: 500;
+}
+
+a {
+    color: #00a5cf;
+    background-color: transparent;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+a {
+    text-decoration: none;
+}
+
+a{
+    color: #fff;
+}
+
+.iconFb {
+    font-size: 32px;
+}
+
+.icons{
+    display: flex;
+    width: 32px;
+    height: 32px;
+    background-color: none;
+}

@@ -1,5 +1,5 @@
 import './Footer.scss'
-
+import fbIcon from '../../../../assets/image/logo/j.png'
 import logo2 from '../../../../assets/image/logo/logo2.svg'
 
 const Footer = () => {
@@ -26,18 +26,36 @@ const Footer = () => {
                 <div className='link'>
                   <a href='https://www.grab.com/vn/food/'>Về Grab</a>
                 </div>
-                <div className='link'></div>
+                <div className='link'>
+                  <a href='https://www.grab.com/vn/food-blog/'>Blog</a>
+                </div>
               </div>
               <div className='antCol-24 antCollg-6'>
-                <div className='link'></div>
-                <div className='link'></div>
+                <div className='link'>
+                  <a href='https://www.grab.com/vn/merchant/food/'>Mở quán trên Grabfood</a>
+                </div>
+                <div className='link'>
+                  <a href='https://www.grab.com/vn/driver/drive/'>Trở thành tài xế Grab</a>
+                </div>
               </div>
               <div className='antCol-24 antCollg-6'>
-                <div className='link'></div>
-                <div className='link'></div>
+                <div className='link'>
+                  <a href='https://help.grab.com/passenger/en-vn/115002258448-GrabFood'>Trung tâm hỗ trợ</a>
+                </div>
+                <div className='link'>
+                  <a href='https://help.grab.com/passenger/en-vn/115002258448-GrabFood'>Câu hỏi thường gặp</a>
+                </div>
               </div>
               <div className='antCol-24 antCollg-6'>
-                <div className='link'></div>
+                <div className='link'>
+                  <a href='https://www.facebook.com/GrabVN/' className='socialIcon' target={'_blank'} rel='noreferrer noopener'>
+                    <span className='iconFb'>
+                      <img src={fbIcon} alt='sd' className='icons'></img>
+                    </span>
+                  </a>
+                  <a href='https://www.instagram.com/grabfoodvietnam/' className='socialIcon' target={'_blank'} rel='noreferrer noopener'>a</a>
+                  <a href='https://twitter.com/grabvn' className='socialIcon' target={'_blank'} rel='noreferrer noopener'>a</a>
+                </div>
               </div>
             </div>
           </div>
