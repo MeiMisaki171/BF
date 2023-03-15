@@ -131,7 +131,7 @@
     justify-content: flex-start;
     align-items: center;
     height: 52px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 a {
@@ -151,13 +151,120 @@ a{
     color: #fff;
 }
 
+.socialIcon{
+    margin-right: 24px;
+}
+
 .iconFb {
-    font-size: 32px;
+    display: flex;
+    height: 32px;
+    width: 32px;
+    justify-content: center;
+    align-items: center;
 }
 
 .icons{
     display: flex;
-    width: 32px;
-    height: 32px;
+    height: 26px;
+    width: 26px;
     background-color: none;
+}
+
+.ant-row-flex {
+    display: flex;
+}
+
+.antCol2-24, .antColmd-24, .antCollg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.antCol2-24 {
+    float: left;
+    flex: 0 0 auto;
+}
+
+.antCo2l-24 {
+    display: block;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .antColmd-24 {
+        float: left;
+        flex: 0 0 auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .antColmd-24 {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .antCollg-12 {
+        float: left;
+        flex: 0 0 auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .antCollg-12 {
+        display: block;
+        width: 50%;
+    }
+}
+
+.storeDeepLink1 {
+    margin-right: 12px;
+}
+
+.term {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #fff;
+    margin: 12px 0;
+}
+
+@media (min-width: 992px) {
+    .term {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.term-items,
+.term-item {
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.term,
+.term-items {
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 768px){
+    .term-items {
+        display: inline-flex;
+    }
+}
+
+@media (min-width: 768px){
+    .term-items {
+        margin-right: 32px;
+    }
+}
+
+.dotss {
+    margin: 0 12px;
+    font-size: 22px;
 }

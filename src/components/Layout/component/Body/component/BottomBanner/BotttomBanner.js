@@ -1,7 +1,7 @@
 import './BottomBanner.scss'
 
 import bannerImg from '../../../../../../assets/image/icons/bottomBannerIcon.svg'
-import bannerImg2 from '../../../../../../assets/image/icons/botomBannerIcon2.svg'
+import bannerImg2 from '../../../../../../assets/image/icons/bottomBannerIcon2.svg'
 import appstore from '../../../../../../assets/image/icons/appStoreIcon.svg'
 import chplay from '../../../../../../assets/image/icons/ggPlayIcon.svg'
 
